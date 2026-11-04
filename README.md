@@ -6,4 +6,4 @@ Visit the main Haunted Heist repo [here](https://github.com/BeanTheAlien/Haunted
 # AIs & Implementation Notes
 ## Audio Synthesis / Text-to-Speech
 Audio synthesis (commonly text-to-speech (TTS)) is used to formulate *predicted* audio lines from a player, in the event that they have died to a ME.\
-The TTS pipeline uses [audio.cpp](https://github.com/0xShug0/audio.cpp) and Kokoro
+The TTS pipeline uses [audio.cpp](https://github.com/0xShug0/audio.cpp) and [Kokoro (82M parameters)](https://huggingface.co/hexgrad/Kokoro-82M).
